@@ -71,7 +71,7 @@ header{
 .top-wrapper {
   height: 540px;
   padding:70px 0 0 130px;
-  background-image: url(../img/shogaku.jpg);
+  background-image: url(shogaku.jpg);
   background-size: cover;
   color:#fff;
   margin-bottom: 50px;
