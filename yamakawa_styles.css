@@ -1,0 +1,643 @@
+body{
+	margin:0;
+	font-family:Arial,verdana;
+	background-color: #f2f2f2;
+}
+
+li{
+	list-style-type:none;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+
+/* ヘッダー */
+
+header{
+	background-color: #04B404;
+	height: 80px;
+	display: fixed;
+}
+
+.header-left{
+	float: left;
+	padding-left: 50px;
+	color: #fff;
+}
+
+.header-left h1{
+	line-height: 80px;
+	margin: 0;
+}
+
+.header-left a{
+	color: #fff;
+}
+
+
+.header-right{
+	float:right;
+	height: 80px;
+}
+
+.menu{
+	font-size:16px;
+	margin:0;
+}
+
+.menu a{
+	display: block;
+	height: 80px;
+	color: #fff;
+	line-height: 80px;
+}
+
+.menu > li{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+
+.menu a:hover{
+	background-color: #81F781;
+}
+
+
+/* トップ画面 */
+
+.top-wrapper {
+  height: 540px;
+  padding:70px 0 0 130px;
+  background-image: url(../img/shogaku.jpg);
+  background-size: cover;
+  color:#fff;
+  margin-bottom: 50px;
+}
+
+.top-wrapper2 {
+  height: 540px;
+  padding:50px 0 0 470px;
+  background-image: url(../img/chugaku.png);
+  background-size: cover;
+  color:#fff;
+  margin-bottom: 50px;
+}
+
+.top-wrapper3 {
+  height: 540px;
+  padding:50px 0 0 470px;
+  background-image: url(../img/chugaku2.png);
+  background-size: cover;
+  color:#fff;
+  margin-bottom: 50px;
+}
+
+.container{
+	margin:0;
+}
+
+.container h1{
+	font-size: 42px;
+	margin:0;
+	text-shadow: 2px 2px #848484;
+}
+
+.container p{
+	font-size: 28px;
+	margin:0;
+	text-shadow: 2px 2px #848484;
+}
+
+
+/*　メイン */
+
+.main-wrapper{
+	width: 900px;
+	margin:50px auto 0;
+	text-align: center;
+}
+
+.main-container{
+	width: 400px;
+	height: 120px;
+	background-color: grey;
+}
+
+
+/* 4つのリンク */
+
+.link-wrapper{
+	width: 1100px;
+	margin:0 auto;
+	/*margin-bottom: 40px;*/
+}
+
+.gazou-upper-links{
+	display: flex;
+	margin-bottom: 12px;
+	justify-content: space-between;
+}
+
+.gazou-downer-links{
+	display: flex;
+	justify-content: space-between;
+}
+
+.link-container {
+	display: block;
+	width: 48%;
+	text-align: center;
+	line-height: 130px;
+}
+
+.link-container a{
+	display: block;
+	height: 130px;
+	font-size:28px;
+}
+
+.boy{
+	background-image:url(../img/link_ao.png);
+	background-size: cover;
+}
+
+.girl{
+	background-image:url(../img/link_girl.png);
+	background-size: cover;
+}
+
+.taisofuku{
+	background-image:url(../img/link_taiso.png);
+	background-size: cover;
+}
+
+.bag{
+	background-image:url(../img/link_bag.png);
+	background-size: cover;
+}
+
+
+/* 修理 */
+
+.repair-wrapper{
+	height: 650px;
+	padding:70px 0 ;
+ 	background-image: url(../img/repair.jpg);
+	background-size: cover;
+	margin-top: 100px;
+}
+
+.repair-top{
+	text-align: center;
+	color:#fff;
+	text-shadow: 2px 2px 2px silver;	
+}
+
+.repair-top p{
+	font-size: 20px;
+}
+
+.repair-contents{
+	width: 1000px;
+	margin:0 auto;
+	display: flex;
+	margin-top: 350px;
+}
+
+.repair{
+	flex:1;
+	width: 30%;
+	height: 150px;
+	margin:5px;
+	color:#fff;
+	text-align: center;
+	text-shadow: 2px 2px 2px silver;
+}
+
+.repair-contents a{
+	display: block;
+	height: 150px;
+	color:#fff;
+}
+
+.repair-student{
+	background-image: url(../img/girl.jpg);
+	background-size: cover;
+}
+
+.repair-men{
+	background-image: url(../img/men.jpg);
+	background-size: cover;
+}
+
+.repair-lady{
+	background-image: url(../img/lady.jpg);
+	background-size: cover;
+}
+
+.repair-contents h2{
+	margin:0;
+}
+
+
+/* お知らせ */
+
+.info-wrapper{
+	border:4px dashed skyblue;
+	width: 1000px;
+	margin:40px auto;
+	text-align: center;
+}
+
+.info-wrapper h1{
+	color:#424242;
+}
+
+.news-contents{
+	padding:0 40px 30px;
+}
+
+.news-content{
+	display: flex;
+}
+
+.news-date{
+	margin-right: 30px;
+}
+
+.news-nakami a{
+	color: blue;
+}
+
+.news-nakami a:hover{
+	text-decoration: underline;
+}
+
+
+
+
+/*
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(https://prog-8.com/images/html/advanced/top.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 14px;
+  margin-bottom: 35px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255,255,255,0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.header-right .login {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  cursor: pointer;
+  display: block;
+}
+
+*/
+
+/*モーダル*/
+/* モーダル部分のCSSを貼り付けてください */
+.login-modal-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+  /* display: none;を追加してください */
+  display:none;
+}
+
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 34%;
+  background-color: #e6ecf0;
+  padding: 20px 0 40px;
+  border-radius: 10px;
+  width: 450px;
+  height: auto;
+  text-align: center;
+}
+
+.fa-times {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  color: rgba(128, 128, 128, 0.46);
+  cursor: pointer;
+}
+
+#signup-form, #login-form {
+  width: 100%;
+}
+
+#signup-form h2, #login-form h2 {
+  color: #5f5d60;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+}
+
+#signup-form input, #login-form input {
+  width: 320px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  padding: 12px 12px;
+  border: 1px solid #d0d5d8;
+  border-radius: 5px;
+}
+
+#submit-btn {
+  display: inline-block;
+  padding: 14px 140px;
+  background-color: #5dca88;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  margin: 10px auto;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* タブレット用レイアウト */
+
+@media(max-width:1100px){
+
+	.menu li{
+		width: 110px;
+		font-size:15px;
+	}
+
+	.menu a{
+		padding: 0 10px;
+	}
+
+	.top-wrapper{
+		width: 100%;
+		height: 400px;
+	 	background-position: center;
+     	background-size: cover;
+		padding: 220px 0 0 150px;
+	}
+
+	.top-wrapper2{
+		width: 100%;
+		height: 400px;
+	 	background-position: center;
+     	background-size: cover;
+		padding: 220px 0 0 150px;
+	}
+
+	.top-wrapper3{
+		width: 100%;
+		height: 400px;
+	 	background-position: center;
+     	background-size: cover;
+		padding: 420px 50px 0 30px;
+	}
+
+	.link-wrapper{
+		width:850px;
+		margin:0 auto;
+	}
+
+	.gazou-upper-links{
+		margin-bottom: 0;
+	}
+
+	.link-container{
+		width: 400px;
+		height:100px;
+		margin:5px;
+	}
+
+
+	/* 修理 */
+
+	.repair-wrapper{
+		width: 100%;
+		height: 300px;
+	}
+
+	.repair-contents{
+		width: 90%;
+		margin-top: 70px;
+	}
+
+	.repair{
+		width: 30%;
+		height: 100px;
+		margin:5px;
+	}
+
+	.repair a{
+		height: 100px;
+	}
+
+	.repair{
+		margin-bottom: 5px;
+	}
+
+
+/* お知らせ */
+
+	.info-wrapper{
+		width: 90%;
+	}
+
+
+
+
+} 
+
+
+
+/* 大スマートフォン用レイアウト */
+
+@media(max-width:880px){
+
+	.header-right{
+		display: none;
+	}
+
+	.top-wrapper{
+		 height: 350px;
+	     padding: 140px 0 0 130px;
+	 }
+
+	 .top-wrapper2{
+		 height: 350px;
+	     padding: 220px 0 0 150px;
+	 }
+
+	 .main-wrapper{
+	 	width: 100%;
+	 }
+
+	.gazou-upper-links{
+		display: block;
+		margin-bottom: 12px;
+	}
+
+	.gazou-downer-links{
+		display: block;
+	}
+
+	.link-wrapper{
+		width: 90%;
+		margin:0 auto;
+
+	}
+
+	.link-container {
+		display: block;
+		width: 100%;
+		height: 150px;
+		line-height: 150px;
+
+	}
+
+	.link-container a{
+		display: block;
+		height: 150px;
+		font-size:36px;
+		font-weight: bold;
+	}
+
+
+}
+
+/* 小スマートフォン用レイアウト */
+
+
+@media(max-width:780px){
+
+	.top-wrapper{
+		 height: 250px;
+	 }
+
+	 .top-wrapper2{
+		 height: 250px;
+	     padding: 220px 0 0 80px;
+	 }	
+
+	 .top-wrapper3{
+		 height: 250px;
+	     padding: 220px 40px 0 30px;
+	 }
+
+	 .container h1{
+			font-size: 32px;
+	}
+
+	.container p{
+			font-size: 22px;
+	}
+
+	/* 修理 */
+
+	.repair-wrapper{
+		height: 200px;
+	}
+
+	.repair-contents{
+		display: block;
+		margin-top: 125px;
+	}
+
+	.repair{
+		width: 100%;
+	}
+
+	.repair-contents p{
+	font-size: 16px;
+	}
